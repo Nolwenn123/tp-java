@@ -5,7 +5,7 @@ public class Main {
         System.out.println("Hello world!");
     }
     EntityManager entityManager = entityManagerFactory.createEntityManager();
-    String jpql = "SELECT a FROM Animal a WHERE a.petStore = :petStore";
+    String jpa = "SELECT a FROM Animal a WHERE a.petStore = :petStore";
 
     Product product = new Product();
         id.setId(12345);
