@@ -1,0 +1,10 @@
+<persistence-unit name="PetStorePU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+    <class>com.example.model.Animal</class>
+    <properties>
+        <property name="javax.persistence.jdbc.driver" value="votre.driver.JDBC" />
+        <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/petstore" />
+        <property name="javax.persistence.jdbc.user" value="votre_utilisateur" />
+        <property name="javax.persistence.jdbc.password" value="votre_mot_de_passe" />
+    </properties>
+</persistence-unit>
